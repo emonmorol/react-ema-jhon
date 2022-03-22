@@ -1,0 +1,25 @@
+.header-content {
+  width: 100%;
+  height: 80px;
+  background: #1c2b35;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 140px;
+  padding-right: 140px;
+  position: fixed;
+  z-index: 1;
+}
+.link-content {
+  margin-right: 18%;
+}
+.header-content a {
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  margin-left: 36px;
+}
+
+.header-content a:hover {
+  color: orange;
+}
